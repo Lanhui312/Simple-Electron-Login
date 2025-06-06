@@ -82,7 +82,7 @@ npm start
    * Responds to the browser with a simple HTML page:
 
      ```html
-     <strong>Authentication successful! You may close this tab.</strong>
+     Authentication successful! You may close this tab.
      ```
 3. **Electron** listens for the IPC message, then:
 
