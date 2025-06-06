@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self';"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electron OAuth Demo</title>
+  </head>
+  <body>
+    <h2>Login with:</h2>
+    <div id="login-container">
+      <button id="googleBtn">Login with Gmail</button>
+      <button id="microsoftBtn">Login with Hotmail</button>
+    </div>
+
+    <div id="welcome-message"></div>
+    <button id="logoutBtn" hidden>Logout</button>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

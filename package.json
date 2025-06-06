@@ -1,0 +1,19 @@
+{
+  "name": "simple-login",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Lanhui Chen",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "electron": "^36.4.0",
+    "node-fetch": "^2.7.0",
+    "save": "^2.9.0"
+  }
+}
